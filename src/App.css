@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
+.head{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 5px;
+  
+}
+.options{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.option{
+  /* border: 2px solid orange; */
+  padding: 3px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.py{
+  border: 1px solid #5a5c69;
+  border-left-color: #4e73df;
+  border-left-width: 5px;
+  border-radius: 3px;
+}.py-txt{
+  color: #4e73df;
+}
+.sy{
+  border: 1px solid #5a5c69;
+  border-left-color: #1cc88a;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+.sy-txt{
+  color:#1cc88a;
+  
+}
+.info{
+  border: 1px solid #5a5c69;
+  border-left-color: #36b9cc;
+  border-left-width: 5px;
+  border-radius: 3px;
+
+} 
+.info-txt{
+  color: #36b9cc;
+
+}
+.warn{
+  border: 1px solid #5a5c69;
+  border-left-color:#f6c23e;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+ .warn-txt{
+  color: #f6c23e;
+
+}
+.titles{
+  color: #4e73df;
+  font-weight: bold;
+  font-size: 18px;
+}
+.summaBox{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 10px;
+
+}
+.chart{
+  padding: 5px;
+  /* border: 2px solid orange; */
+  height: 300px;width: 600px;
+  
+}
+.dough{
+  /* border: 3px solid darkblue; */
+  display: flex;
+  justify-content: center;
+ 
+}
+.dough-head{
+  margin-bottom: 50px;
+}
+/* Progress Copm */
+.progressBar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.progressContent{
+  margin: 0px 10px 5px 10px;
+}
+/* Illustration compo ---- */
+.picture{
+  width: 60%;height: 400px;
+  object-fit: cover;
+  margin-left: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.illus-body{
+  margin: 0px 10px 5px 10px;
+}
+.prog-illus{
+  display: flex;
+  gap: 15px;
+
+}
+.illus-para{
+  margin: 10px 0px 25px 0px;
+  text-align: justify;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.prog{
+  
+  width: 800px;
+}
+
+/* Button comp styles----*/
+.buttonDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+.primary{
+  height: 100px; width: 200px;
+  background-color: #4e73df;
+  border: 1px solid wheat;
+  margin: 10px;
+  border-radius: 5px;
+}
+.primaryDiv{
+  margin-left: 10px;
+  
+}
+.primaryDiv p{
+  padding: 20px;
+  
+}
+
+.success{
+  background-color: #1cc88a;
+}
+
+.warning{
+background-color:#f6c23e;
+}.danger{
+  background-color:#e74a3b;
+}
+.secondary{
+  background-color:#858796;
+}
+.light{
+  background-color:#f8f9fc;
+}
+.dark{
+  background-color:#5a5c69;
+}
+.txt{
+  color:whitesmoke;
+}
+.btncomp{
+  display: flex;
+
+
+}
+.btnprog{
+  width: 930px;
+}
+.btnprog-1{
+  /* border: 2px solid black; */
+  height: 280px;
+  padding: 10px;
+}
+.para-1,.para-2{
+  
+  padding: 10px;
+}
+.app{
+  display: flex;
+  gap: 5px;
+}
+
+/* ----- MenuBtns --- */
+.navBtn{
+  border: 2px solid grey;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  padding: 2px;
+  min-height: 100vh;
+  background-color: #4e73df;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Btns{
+  margin: 1px;
 }
