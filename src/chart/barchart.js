@@ -13,7 +13,7 @@ const data={
     labels:['Jan',"Feb","Mar","Apr","May"],
     datasets:[
         {
-            label:"rice prize",
+            label:"Earnings",
             data:[100,500,1000,15000,20000],
             backgroundColor:"rgba(255,99,132,0.5)"
         }

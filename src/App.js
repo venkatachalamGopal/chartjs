@@ -27,7 +27,7 @@ function App() {
 
     <div className='navBtn'>
     <Button className="Btns" onClick={()=>navigate('/')} >Dashboard</Button>
-    <Button className="Btns" onClick={()=>navigate('/linechart')}>linechart</Button>
+    <Button className="Btns" onClick={()=>navigate('/linechart')}>Linechart</Button>
     <Button className="Btns" onClick={()=>navigate('/doughnut')} >Doughnut</Button>
     <Button className="Btns" onClick={()=>navigate('/barchart')} >Barchart</Button>
 

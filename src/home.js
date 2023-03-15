@@ -9,6 +9,9 @@ import {AiTwotoneCalendar} from 'react-icons/ai'
 import {TbCurrencyDollar} from 'react-icons/tb'
 import {BiCalendar} from 'react-icons/bi'
 import {TiMessage} from 'react-icons/ti'
+import {IoMdNotifications} from 'react-icons/io'
+import {BiMessageDetail} from 'react-icons/bi'
+import{CgProfile}from 'react-icons/cg'
 import {ProgressBar} from 'react-bootstrap'
 
 
@@ -21,13 +24,20 @@ export  const Home=()=>{
         <>
         <div className="head">
           <div>
-            <input type="text" placeholder="search for ...."/>
+            <input type="text" id="text" placeholder="Search...."/>
+          </div>
+          <div className="head-1">
+          <div className="icon">
+            <IoMdNotifications size="25px" />
+            <BiMessageDetail size="25px"/>
+            </div>
+            <div className="profile"><span>Joe</span>
+              <CgProfile size="25px"/>
+              </div>
           </div>
 
-          <div>Notification & Message</div>
-          <div>Profile</div>
         </div>
-        <h1>Dashboard</h1>
+        <h3>DASHBOARD</h3>
 
         <div className="options">
           <div className="option py">
@@ -36,7 +46,7 @@ export  const Home=()=>{
               <div>$40,000</div>
             </div>
             <div className="icons1">
-              <AiTwotoneCalendar className="icons"/>
+              <AiTwotoneCalendar size="20px" className="icons"/>
             </div>
           </div>
           <div className="option sy">
@@ -45,17 +55,17 @@ export  const Home=()=>{
               <div>$215,000</div>
             </div>
             <div className="icons">
-              <TbCurrencyDollar/>
+              <TbCurrencyDollar size="20px"/>
             </div>
           </div>
           <div className="option info">
             <div>
-              <div className="info-tx" >TASKS</div>
+              <div className="info-tx">TASKS</div>
               <div>50%</div>
             </div>
             <div><ProgressBar now={20} variant="primary" /></div>
             <div className="icons">
-              <BiCalendar/>
+              <BiCalendar size="20px"/>
             </div>
           </div>
           <div className="option warn">
@@ -64,7 +74,7 @@ export  const Home=()=>{
               <div>18</div>
             </div>
             <div className="icons">
-              <TiMessage/>
+              <TiMessage size="20px"/>
             </div>
           </div>
           

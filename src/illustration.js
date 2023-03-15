@@ -15,7 +15,7 @@ export function Illustration() {
         a constantly updated collection of beautiful svg images that you can use
         completely free and without attribution!
       </p>
-      <p><a> Browse Illustrations on unDraw → </a></p>
+      <p><a href="#"> Browse Illustrations on unDraw → </a></p>
       </div>
 
       </div>
